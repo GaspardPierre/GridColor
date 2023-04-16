@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>GridColor</title>
+</head>
+<body>
+    <div class="main-container">
+        <h1>GridColor</h1>
+
+        <form class="configuration">
+            <input type="number" class="gridSize" id="gridSize" placeholder="Taille de la grille ex:10">
+            <input type="number" class="pixelSize" id="pixelSize" placeholder="Taille des cellules ex:10">
+        
+    
+            <button class="btn" type="submit" id="btn">Valider</button>
+          
+        </form>
+        <div id="invader"></div>
+        <div class="bottom-container">
+
+            <div class="colors-container">
+    
+                <div class="color green" id="green"></div>
+                <div class="color yellow"id="yellow" ></div>
+                <div class="color black" id="black"></div>
+                <div class="color pink" id="pink"></div>
+                <div class="color orange" id="orange"></div>
+                <div class="color red" id="red"></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
